@@ -1,0 +1,14 @@
+platform :ios, '14.0'
+
+target 'CocktailsApp' do
+  # Firebase
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Storage'
+  pod 'Firebase/Analytics'
+
+  # Image loading
+  pod 'SDWebImageSwiftUI'
+
+  # JSON parsing
+  pod 'SwiftyJSON'
+end
