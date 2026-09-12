@@ -1,0 +1,1380 @@
+[
+  {
+    "id": "margarita",
+    "name": "מרגריטה",
+    "description": "קוקטיל קלאסי עם טקילה, חמוץ ומתוק",
+    "baseSpirit": "tequila",
+    "tastes": ["sour", "sweet"],
+    "difficulty": "easy",
+    "cost": "medium",
+    "ingredients": [
+      { "id": "tequila", "name": "טקילה", "amount": "50ml" },
+      { "id": "lime-juice", "name": "מיץ לימון טרי", "amount": "25ml" },
+      { "id": "triple-sec", "name": "טריפל סק / קואנטרו", "amount": "15ml" }
+    ],
+    "instructions": [
+      "מלא כוס בקרח",
+      "שפוך את הטקילה, מיץ הלימון וטריפל סק",
+      "ערבב היטב",
+      "עטוף בקצף מלח בשפת הכוס"
+    ],
+    "garnish": "קצף מלח וחתיכת לימון",
+    "tips": "השתמש בטקילה איכותית וטרייה לימון"
+  },
+  {
+    "id": "daiquiri",
+    "name": "דייקירי",
+    "description": "קוקטיל קלאסי חמוץ עם ראם לבן",
+    "baseSpirit": "rum",
+    "tastes": ["sour", "light"],
+    "difficulty": "easy",
+    "cost": "cheap",
+    "ingredients": [
+      { "id": "white-rum", "name": "ראם לבן", "amount": "60ml" },
+      { "id": "lime-juice", "name": "מיץ לימון טרי", "amount": "25ml" },
+      { "id": "sugar-syrup", "name": "סירופ סוכר", "amount": "15ml" }
+    ],
+    "instructions": [
+      "ערבב את הראם, מיץ הלימון וסירופ הסוכר בשייקר עם קרח",
+      "סנן לתוך כוס קר",
+      "הוסף קרח"
+    ],
+    "garnish": "חתיכת לימון",
+    "tips": "זה הקוקטיל הקלאסי - פשוט, טעים וקל להכנה"
+  },
+  {
+    "id": "mojito",
+    "name": "מוהיטו",
+    "description": "קוקטיל רענן עם ראם, מנטה ולימון",
+    "baseSpirit": "rum",
+    "tastes": ["sour", "fresh"],
+    "difficulty": "easy",
+    "cost": "cheap",
+    "ingredients": [
+      { "id": "white-rum", "name": "ראם לבן", "amount": "45ml" },
+      { "id": "lime-juice", "name": "מיץ לימון טרי", "amount": "25ml" },
+      { "id": "sugar-syrup", "name": "סירופ סוכר", "amount": "10ml" },
+      { "id": "mint", "name": "עלי מנטה", "amount": "10 עלים" },
+      { "id": "soda-water", "name": "מים סודה", "amount": "100ml" }
+    ],
+    "instructions": [
+      "שימו עלי מנטה וסוכר בכוס",
+      "ערבבו בעדינות כדי להשחרר את הניחוח",
+      "הוסיפו קרח וראם",
+      "הוסיפו מיץ לימון ומים סודה",
+      "ערבבו היטב"
+    ],
+    "garnish": "עלי מנטה וקש",
+    "tips": "השתמשו במנטה טרייה בלבד"
+  },
+  {
+    "id": "martini",
+    "name": "מרטיני",
+    "description": "קוקטיל קלאסי ויבש עם גין ויארמוט",
+    "baseSpirit": "gin",
+    "tastes": ["dry", "strong"],
+    "difficulty": "easy",
+    "cost": "medium",
+    "ingredients": [
+      { "id": "gin", "name": "גין", "amount": "60ml" },
+      { "id": "dry-vermouth", "name": "יארמוט יבש", "amount": "15ml" }
+    ],
+    "instructions": [
+      "קרר את הכוס עם קרח",
+      "שימו גין ויארמוט בגביע ערבוב",
+      "ערבבו עם קרח כ-30 שניות",
+      "סנן לתוך הכוס הקרה"
+    ],
+    "garnish": "זיתון ירוק או פתיל לימון",
+    "tips": "כמו שג'יימס בונד - מערובב, לא מנופנף"
+  },
+  {
+    "id": "cosmopolitan",
+    "name": "קוסמופוליטן",
+    "description": "קוקטיל קלאסי עם וודקה, לימון וקראנברי",
+    "baseSpirit": "vodka",
+    "tastes": ["sour", "sweet"],
+    "difficulty": "easy",
+    "cost": "medium",
+    "ingredients": [
+      { "id": "vodka", "name": "וודקה", "amount": "40ml" },
+      { "id": "triple-sec", "name": "טריפל סק", "amount": "15ml" },
+      { "id": "cranberry-juice", "name": "מיץ קראנברי", "amount": "25ml" },
+      { "id": "lime-juice", "name": "מיץ לימון טרי", "amount": "15ml" }
+    ],
+    "instructions": [
+      "ערבבו את כל המרכיבים בשייקר עם קרח",
+      "סנן לתוך כוס מרטיני קר"
+    ],
+    "garnish": "פתיל לימון",
+    "tips": "קוקטיל מפורסם מסדרה 'Sex and the City'"
+  },
+  {
+    "id": "old-fashioned",
+    "name": "אולד פאשיונד",
+    "description": "קוקטיל קלאסי חזק עם וויסקי וביטרס",
+    "baseSpirit": "whiskey",
+    "tastes": ["strong", "sweet"],
+    "difficulty": "medium",
+    "cost": "medium",
+    "ingredients": [
+      { "id": "whiskey", "name": "וויסקי", "amount": "60ml" },
+      { "id": "sugar", "name": "סוכר", "amount": "1 כפית" },
+      { "id": "bitters", "name": "ביטרס אנגוסטורה", "amount": "2 דגימות" },
+      { "id": "water", "name": "מים", "amount": "30ml" }
+    ],
+    "instructions": [
+      "שימו סוכר בכוס",
+      "הוסיפו ביטרס ומים",
+      "ערבבו עד שהסוכר יתמוסס",
+      "הוסיפו קרח גדול",
+      "ערוק את הוויסקי",
+      "ערבבו בעדינות"
+    ],
+    "garnish": "פתיל תפוז",
+    "tips": "זה הקוקטיל המושלם למטות סערה"
+  },
+  {
+    "id": "margarita-frozen",
+    "name": "מרגריטה מוקפאת",
+    "description": "גרסה קר ומתוקה של המרגריטה",
+    "baseSpirit": "tequila",
+    "tastes": ["sour", "sweet"],
+    "difficulty": "medium",
+    "cost": "medium",
+    "ingredients": [
+      { "id": "tequila", "name": "טקילה", "amount": "50ml" },
+      { "id": "triple-sec", "name": "טריפל סק", "amount": "20ml" },
+      { "id": "lime-juice", "name": "מיץ לימון טרי", "amount": "30ml" },
+      { "id": "sugar-syrup", "name": "סירופ סוכר", "amount": "15ml" },
+      { "id": "ice", "name": "קרח", "amount": "2 כוסות" }
+    ],
+    "instructions": [
+      "שימו קרח, טקילה, טריפל סק, מיץ לימון וסירופ בבלנדר",
+      "בלנדו עד להשגת עקביות חלקה",
+      "שפכו לתוך כוס עם קצף מלח"
+    ],
+    "garnish": "קצף מלח",
+    "tips": "מושלמת בקיץ חם"
+  },
+  {
+    "id": "moscow-mule",
+    "name": "מוסקו מיול",
+    "description": "קוקטיל רענן עם וודקה, בירת ג'ינג'ר ולימון",
+    "baseSpirit": "vodka",
+    "tastes": ["sweet", "spicy"],
+    "difficulty": "easy",
+    "cost": "cheap",
+    "ingredients": [
+      { "id": "vodka", "name": "וודקה", "amount": "45ml" },
+      { "id": "ginger-beer", "name": "בירת ג'ינג'ר", "amount": "120ml" },
+      { "id": "lime-juice", "name": "מיץ לימון טרי", "amount": "15ml" }
+    ],
+    "instructions": [
+      "מלא כוס נחושת בקרח",
+      "ערוק וודקה",
+      "תוסיף מיץ לימון",
+      "מלא עם בירת ג'ינג'ר",
+      "ערבבו עם קש"
+    ],
+    "garnish": "פרח ג'ינג'ר וקש",
+    "tips": "השתמשו בנחושת או בגביע גדול"
+  },
+  {
+    "id": "pina-colada",
+    "name": "פינה קולאדה",
+    "description": "קוקטיל קרם וחם עם ראם וקוקוס",
+    "baseSpirit": "rum",
+    "tastes": ["sweet", "creamy"],
+    "difficulty": "medium",
+    "cost": "medium",
+    "ingredients": [
+      { "id": "white-rum", "name": "ראם לבן", "amount": "45ml" },
+      { "id": "pina-colada-mix", "name": "Piña Colada mix (או קוקוס וקר)", "amount": "90ml" },
+      { "id": "pineapple-juice", "name": "מיץ אננס", "amount": "90ml" },
+      { "id": "ice", "name": "קרח", "amount": "1 כוס" }
+    ],
+    "instructions": [
+      "בלנדו ראם, Piña Colada mix, מיץ אננס וקרח",
+      "שפכו לכוס גדולה",
+      "קישטו עם עלי אננס"
+    ],
+    "garnish": "עלי אננס וקש",
+    "tips": "קוקטיל מושלם לחופשה"
+  },
+  {
+    "id": "long-island",
+    "name": "לונג איילנד",
+    "description": "קוקטיל חזק עם שישה משקאות שונים",
+    "baseSpirit": "rum",
+    "tastes": ["sweet", "strong"],
+    "difficulty": "hard",
+    "cost": "expensive",
+    "ingredients": [
+      { "id": "white-rum", "name": "ראם לבן", "amount": "15ml" },
+      { "id": "vodka", "name": "וודקה", "amount": "15ml" },
+      { "id": "gin", "name": "גין", "amount": "15ml" },
+      { "id": "tequila", "name": "טקילה", "amount": "15ml" },
+      { "id": "triple-sec", "name": "טריפל סק", "amount": "15ml" },
+      { "id": "light-rum", "name": "ראם בהיר", "amount": "15ml" },
+      { "id": "lime-juice", "name": "מיץ לימון טרי", "amount": "25ml" },
+      { "id": "sugar-syrup", "name": "סירופ סוכר", "amount": "30ml" },
+      { "id": "cola", "name": "קולה", "amount": "30ml" }
+    ],
+    "instructions": [
+      "ערבבו את כל המשקאות החזקים עם מיץ לימון וסירופ בשייקר עם קרח",
+      "סנן לכוס גדולה עם קרח",
+      "מלא עם קולה",
+      "ערבבו"
+    ],
+    "garnish": "עלה מנטה וקש",
+    "tips": "קוקטיל חזק מאוד - התייחסו בזהירות!"
+  },
+  {
+    "id": "gimlet",
+    "name": "גימלט",
+    "description": "קוקטיל קלאסי עם גין וליים",
+    "baseSpirit": "gin",
+    "tastes": ["sour", "light"],
+    "difficulty": "easy",
+    "cost": "cheap",
+    "ingredients": [
+      { "id": "gin", "name": "גין", "amount": "60ml" },
+      { "id": "lime-juice", "name": "מיץ לימון טרי", "amount": "30ml" },
+      { "id": "sugar-syrup", "name": "סירופ סוכר", "amount": "10ml" }
+    ],
+    "instructions": [
+      "ערבבו גין, מיץ לימון וסירופ בשייקר עם קרח",
+      "סנן לתוך כוס קר"
+    ],
+    "garnish": "חתיכת לימון",
+    "tips": "קוקטיל קלאסי פשוט וטעים"
+  },
+  {
+    "id": "negroni",
+    "name": "נגרוני",
+    "description": "קוקטיל איטלקי חזק עם גין, קמפרי וורמוט",
+    "baseSpirit": "gin",
+    "tastes": ["dry", "bitter"],
+    "difficulty": "easy",
+    "cost": "expensive",
+    "ingredients": [
+      { "id": "gin", "name": "גין", "amount": "30ml" },
+      { "id": "campari", "name": "קמפרי", "amount": "30ml" },
+      { "id": "sweet-vermouth", "name": "ורמוט מתוק", "amount": "30ml" }
+    ],
+    "instructions": [
+      "מלא כוס גדול בקרח",
+      "שפוך את הגין, קמפרי וורמוט",
+      "ערבבו"
+    ],
+    "garnish": "פתיל תפוז",
+    "tips": "קוקטיל קלאסי איטלקי לפני ארוחה"
+  },
+  {
+    "id": "manhattan",
+    "name": "מנהטן",
+    "description": "קוקטיל קלאסי עם וויסקי וורמוט",
+    "baseSpirit": "whiskey",
+    "tastes": ["sweet", "strong"],
+    "difficulty": "easy",
+    "cost": "medium",
+    "ingredients": [
+      { "id": "whiskey", "name": "וויסקי", "amount": "60ml" },
+      { "id": "sweet-vermouth", "name": "ורמוט מתוק", "amount": "30ml" },
+      { "id": "bitters", "name": "ביטרס אנגוסטורה", "amount": "2 דגימות" }
+    ],
+    "instructions": [
+      "ערבבו וויסקי, ורמוט וביטרס בגביע ערבוב עם קרח",
+      "סנן לתוך כוס קר"
+    ],
+    "garnish": "דובדבן מרושה",
+    "tips": "קוקטיל קלאסי ניו יורקי"
+  },
+  {
+    "id": "sidecar",
+    "name": "סיידקר",
+    "description": "קוקטיל קלאסי עם קוניאק וליכר",
+    "baseSpirit": "brandy",
+    "tastes": ["sour", "sweet"],
+    "difficulty": "easy",
+    "cost": "expensive",
+    "ingredients": [
+      { "id": "cognac", "name": "קוניאק", "amount": "45ml" },
+      { "id": "triple-sec", "name": "טריפל סק", "amount": "20ml" },
+      { "id": "lime-juice", "name": "מיץ לימון טרי", "amount": "20ml" }
+    ],
+    "instructions": [
+      "ערבבו קוניאק, טריפל סק ומיץ לימון בשייקר עם קרח",
+      "סנן לתוך כוס קר"
+    ],
+    "garnish": "פתיל לימון",
+    "tips": "קוקטיל אלגנטי וקלאסי"
+  },
+  {
+    "id": "margarita-spicy",
+    "name": "מרגריטה חריפה",
+    "description": "גרסה חריפה של המרגריטה עם ג'לפניו",
+    "baseSpirit": "tequila",
+    "tastes": ["sour", "spicy"],
+    "difficulty": "medium",
+    "cost": "medium",
+    "ingredients": [
+      { "id": "tequila", "name": "טקילה", "amount": "50ml" },
+      { "id": "triple-sec", "name": "טריפל סק", "amount": "15ml" },
+      { "id": "lime-juice", "name": "מיץ לימון טרי", "amount": "25ml" },
+      { "id": "jalapeño", "name": "פלחי ג'לפניו", "amount": "3-4 פלחים" },
+      { "id": "agave-nectar", "name": "דבש אגווה", "amount": "10ml" }
+    ],
+    "instructions": [
+      "ערבבו פלחי ג'לפניו בשייקר",
+      "הוסיפו טקילה, טריפל סק, מיץ לימון ודבש אגווה",
+      "ערבבו עם קרח",
+      "סנן לכוס עם קצף מלח"
+    ],
+    "garnish": "קצף מלח וחתיכת ג'לפניו",
+    "tips": "מושלמת לאהבי הרמות חריפות"
+  },
+  {
+    "id": "bloody-mary",
+    "name": "בלאדי מרי",
+    "description": "קוקטיל מובחר עם וודקה וקטשופ עגבניות",
+    "baseSpirit": "vodka",
+    "tastes": ["savory", "spicy"],
+    "difficulty": "medium",
+    "cost": "cheap",
+    "ingredients": [
+      { "id": "vodka", "name": "וודקה", "amount": "45ml" },
+      { "id": "tomato-juice", "name": "מיץ עגבניות", "amount": "120ml" },
+      { "id": "lemon-juice", "name": "מיץ לימון", "amount": "15ml" },
+      { "id": "hot-sauce", "name": "סוס חריף", "amount": "5ml" },
+      { "id": "worcestershire", "name": "סוס וורצסטר", "amount": "5ml" }
+    ],
+    "instructions": [
+      "מלא כוס בקרח",
+      "ערוק וודקה",
+      "הוסיף מיץ עגבניות, לימון, סוס חריף וסוס וורצסטר",
+      "ערבבו היטב",
+      "קישטו לפי הרצון"
+    ],
+    "garnish": "גמד צלרי, עגבנייה, זיתון",
+    "tips": "מושלמת לארוחת בוקר או ברנץ'"
+  },
+  {
+    "id": "tequila-sunrise",
+    "name": "טקילה סנרייז",
+    "description": "קוקטיל צבעוני עם טקילה, מיץ תפוז וגרנדין",
+    "baseSpirit": "tequila",
+    "tastes": ["sweet", "fruity"],
+    "difficulty": "easy",
+    "cost": "cheap",
+    "ingredients": [
+      { "id": "tequila", "name": "טקילה", "amount": "45ml" },
+      { "id": "orange-juice", "name": "מיץ תפוז", "amount": "120ml" },
+      { "id": "grenadine", "name": "גרנדין", "amount": "15ml" }
+    ],
+    "instructions": [
+      "מלא כוס בקרח",
+      "ערוק טקילה",
+      "מלא עם מיץ תפוז",
+      "ערוק גרנדין בעדינות מהקצה - הוא יישקע לתחתית ויוצר אפקט של שקיעה"
+    ],
+    "garnish": "עלה כרטום וקש",
+    "tips": "קוקטיל קלאסי וצבעוני"
+  },
+  {
+    "id": "caipirinha",
+    "name": "קייפירינה",
+    "description": "קוקטיל ברזילאי רענן עם רום וביצה",
+    "baseSpirit": "rum",
+    "tastes": ["sour", "light"],
+    "difficulty": "medium",
+    "cost": "cheap",
+    "ingredients": [
+      { "id": "cachaça", "name": "קשאצה (או ראם לבן)", "amount": "50ml" },
+      { "id": "lime", "name": "לימון שלם (חתוך)", "amount": "1 לימון" },
+      { "id": "sugar", "name": "סוכר חום", "amount": "2 כפיות" }
+    ],
+    "instructions": [
+      "שימו חתיכות לימון וסוכר בכוס",
+      "דקו בעדינות כדי להשחרר את המיצים (לא לעשות קטום מדי)",
+      "מלא בקרח",
+      "ערוק קשאצה",
+      "ערבבו"
+    ],
+    "garnish": "חתיכת לימון",
+    "tips": "קוקטיל ברזילאי קלאסי"
+  },
+  {
+    "id": "whiskey-sour",
+    "name": "וויסקי סאוור",
+    "description": "קוקטיל קלאסי חמוץ עם וויסקי וביצה",
+    "baseSpirit": "whiskey",
+    "tastes": ["sour", "light"],
+    "difficulty": "easy",
+    "cost": "cheap",
+    "ingredients": [
+      { "id": "whiskey", "name": "וויסקי", "amount": "60ml" },
+      { "id": "lemon-juice", "name": "מיץ לימון טרי", "amount": "25ml" },
+      { "id": "sugar-syrup", "name": "סירופ סוכר", "amount": "15ml" },
+      { "id": "egg-white", "name": "חלבון ביצה (אופציונלי)", "amount": "1" }
+    ],
+    "instructions": [
+      "ערבבו וויסקי, מיץ לימון וסירופ בשייקר עם קרח",
+      "סנן לתוך כוס קר",
+      "אם רוצים - צמד חלבון ביצה בשייקר קודם להוספת הקרח"
+    ],
+    "garnish": "דובדבן ופתיל לימון",
+    "tips": "קוקטיל קלאסי וקל"
+  },
+  {
+    "id": "aperol-spritz",
+    "name": "אפרול שפריץ",
+    "description": "קוקטיל קל ורענן לפני ארוחה",
+    "baseSpirit": "aperol",
+    "tastes": ["light", "bitter"],
+    "difficulty": "easy",
+    "cost": "medium",
+    "ingredients": [
+      { "id": "aperol", "name": "אפרול", "amount": "30ml" },
+      { "id": "prosecco", "name": "פרוסקו", "amount": "60ml" },
+      { "id": "soda-water", "name": "מים סודה", "amount": "30ml" }
+    ],
+    "instructions": [
+      "מלא כוס בקרח",
+      "ערוק אפרול",
+      "מלא עם פרוסקו",
+      "מלא עם מים סודה",
+      "ערבבו בעדינות"
+    ],
+    "garnish": "קטע תפוז",
+    "tips": "קוקטיל איטלקי קלאסי"
+  },
+  {
+    "id": "green-fairy",
+    "name": "פיה ירוקה",
+    "description": "קוקטיל מסתורי עם אבסינת וסוכר",
+    "baseSpirit": "absinthe",
+    "tastes": ["strong", "herbal"],
+    "difficulty": "medium",
+    "cost": "expensive",
+    "ingredients": [
+      { "id": "absinthe", "name": "אבסינת", "amount": "45ml" },
+      { "id": "sugar", "name": "סוכר", "amount": "1 כוביה" },
+      { "id": "water", "name": "מים קרים", "amount": "90ml" }
+    ],
+    "instructions": [
+      "שימו סוכר בכוס אבסינת מיוחדת",
+      "ערוק אבסינת ببטיטית מעל הסוכר",
+      "הוסיפו מים קרים באטיות בזמן ערבוב",
+      "כשמתמסמסת - הוספת קרח"
+    ],
+    "garnish": "כוביית סוכר",
+    "tips": "קוקטיל קלאסי עם היסטוריה עשירה"
+  },
+  {
+    "id": "irish-coffee",
+    "name": "קפה אירי",
+    "description": "שילוב חם של קפה, וויסקי וקרם",
+    "baseSpirit": "whiskey",
+    "tastes": ["sweet", "strong"],
+    "difficulty": "medium",
+    "cost": "cheap",
+    "ingredients": [
+      { "id": "irish-whiskey", "name": "וויסקי אירי", "amount": "40ml" },
+      { "id": "hot-coffee", "name": "קפה חם", "amount": "150ml" },
+      { "id": "sugar", "name": "סוכר", "amount": "1 כפית" },
+      { "id": "cream", "name": "קרם (cream)", "amount": "30ml" }
+    ],
+    "instructions": [
+      "קחו כוס קפה",
+      "הוסיפו סוכר וערבבו",
+      "הוסיפו וויסקי אירי",
+      "הוסיפו קרם בעדינות (עזרה: העב' הקרם עם כוכב))"
+    ],
+    "garnish": "קרם",
+    "tips": "קוקטיל חם מושלם לערב קר"
+  },
+  {
+    "id": "brandy-alexander",
+    "name": "ברנדי אלכסנדר",
+    "description": "קוקטיל קרם ומתוק עם קוניאק",
+    "baseSpirit": "brandy",
+    "tastes": ["sweet", "creamy"],
+    "difficulty": "easy",
+    "cost": "medium",
+    "ingredients": [
+      { "id": "cognac", "name": "קוניאק", "amount": "30ml" },
+      { "id": "creme-de-cacao", "name": "קרמי דה קקאו", "amount": "30ml" },
+      { "id": "heavy-cream", "name": "קרם כבד", "amount": "30ml" }
+    ],
+    "instructions": [
+      "ערבבו קוניאק, קרמי דה קקאו וקרם בשייקר עם קרח",
+      "סנן לתוך כוס קר"
+    ],
+    "garnish": "אבקת קקאו",
+    "tips": "קוקטיל קרם וקלאסי"
+  },
+  {
+    "id": "sazerac",
+    "name": "סזראק",
+    "description": "קוקטיל אמריקאי קלאסי מניו אורלינס",
+    "baseSpirit": "whiskey",
+    "tastes": ["strong", "herbal"],
+    "difficulty": "hard",
+    "cost": "medium",
+    "ingredients": [
+      { "id": "rye-whiskey", "name": "וויסקי רע", "amount": "60ml" },
+      { "id": "absinthe", "name": "אבסינת", "amount": "5ml" },
+      { "id": "bitters", "name": "פיקוד ביטרס", "amount": "2 דגימות" },
+      { "id": "sugar", "name": "סוכר", "amount": "1 כוביה" }
+    ],
+    "instructions": [
+      "קרר כוס עם אבסינת",
+      "שפוך את החנתי",
+      "בגביע ערבוב - שימו סוכר וביטרס",
+      "הוסיפו קרח וויסקי",
+      "ערבבו",
+      "סנן לכוס המקורר"
+    ],
+    "garnish": "פתיל לימון",
+    "tips": "קוקטיל אמריקאי קלאסי מהמאה ה-19"
+  },
+  {
+    "id": "mint-julep",
+    "name": "מינט ג'וליפ",
+    "description": "קוקטיל קר עם וויסקי ומנטה",
+    "baseSpirit": "whiskey",
+    "tastes": ["fresh", "sweet"],
+    "difficulty": "medium",
+    "cost": "cheap",
+    "ingredients": [
+      { "id": "bourbon-whiskey", "name": "בורבון וויסקי", "amount": "60ml" },
+      { "id": "mint", "name": "עלי מנטה", "amount": "8 עלים" },
+      { "id": "sugar-syrup", "name": "סירופ סוכר", "amount": "15ml" },
+      { "id": "water", "name": "מים", "amount": "15ml" }
+    ],
+    "instructions": [
+      "שימו עלי מנטה וסירופ בכוס",
+      "דקו בעדינות כדי להשחרר את הניחוח",
+      "מלא כוס בקרח דק",
+      "ערוק וויסקי",
+      "ערבבו עם קש"
+    ],
+    "garnish": "עלי מנטה",
+    "tips": "קוקטיל קלאסי אמריקאי מהדרום"
+  },
+  {
+    "id": "last-word",
+    "name": "המילה האחרונה",
+    "description": "קוקטיל חריף וקומפלקס עם גין",
+    "baseSpirit": "gin",
+    "tastes": ["sour", "herbal"],
+    "difficulty": "medium",
+    "cost": "medium",
+    "ingredients": [
+      { "id": "gin", "name": "גין", "amount": "25ml" },
+      { "id": "green-chartreuse", "name": "גרין שארטרוז", "amount": "25ml" },
+      { "id": "maraschino-liqueur", "name": "מאראסקינו ליקר", "amount": "25ml" },
+      { "id": "lime-juice", "name": "מיץ לימון טרי", "amount": "25ml" }
+    ],
+    "instructions": [
+      "ערבבו את כל המרכיבים בשייקר עם קרח",
+      "סנן לתוך כוס קר"
+    ],
+    "garnish": "דובדבן",
+    "tips": "קוקטיל חריף וקומפלקס"
+  },
+  {
+    "id": "corpse-reviver-2",
+    "name": "מחיה הגויה 2",
+    "description": "קוקטיל מסתורי קלאסי",
+    "baseSpirit": "gin",
+    "tastes": ["sour", "bitter"],
+    "difficulty": "hard",
+    "cost": "expensive",
+    "ingredients": [
+      { "id": "gin", "name": "גין", "amount": "25ml" },
+      { "id": "cognac", "name": "קוניאק", "amount": "25ml" },
+      { "id": "triple-sec", "name": "טריפל סק", "amount": "25ml" },
+      { "id": "lillet-blanc", "name": "ליליט בלן", "amount": "25ml" },
+      { "id": "lemon-juice", "name": "מיץ לימון טרי", "amount": "25ml" },
+      { "id": "bitters", "name": "אבסינת ביטרס (טיפה)", "amount": "1" }
+    ],
+    "instructions": [
+      "ערבבו את כל המרכיבים בשייקר עם קרח",
+      "סנן לתוך כוס קר"
+    ],
+    "garnish": "פתיל לימון",
+    "tips": "קוקטיל חריף וקומפלקס"
+  },
+  {
+    "id": "between-sheets",
+    "name": "בין הסדינים",
+    "description": "קוקטיל קלאסי קר עם קוניאק",
+    "baseSpirit": "brandy",
+    "tastes": ["sour", "sweet"],
+    "difficulty": "easy",
+    "cost": "medium",
+    "ingredients": [
+      { "id": "cognac", "name": "קוניאק", "amount": "30ml" },
+      { "id": "rum-light", "name": "ראם בהיר", "amount": "30ml" },
+      { "id": "triple-sec", "name": "טריפל סק", "amount": "15ml" },
+      { "id": "lemon-juice", "name": "מיץ לימון טרי", "amount": "20ml" }
+    ],
+    "instructions": [
+      "ערבבו את כל המרכיבים בשייקר עם קרח",
+      "סנן לתוך כוס קר"
+    ],
+    "garnish": "פתיל לימון",
+    "tips": "קוקטיל קלאסי קל וטעים"
+  },
+  {
+    "id": "ramos-gin-fizz",
+    "name": "רמוס ג'ין פיץ",
+    "description": "קוקטיל מורכב עם חלבון ביצה וקרם",
+    "baseSpirit": "gin",
+    "tastes": ["sweet", "creamy"],
+    "difficulty": "hard",
+    "cost": "cheap",
+    "ingredients": [
+      { "id": "gin", "name": "גין", "amount": "45ml" },
+      { "id": "lemon-juice", "name": "מיץ לימון טרי", "amount": "20ml" },
+      { "id": "lime-juice", "name": "מיץ לימון ירוק", "amount": "15ml" },
+      { "id": "cream", "name": "קרם", "amount": "20ml" },
+      { "id": "egg-white", "name": "חלבון ביצה", "amount": "1" },
+      { "id": "sugar-syrup", "name": "סירופ סוכר", "amount": "10ml" },
+      { "id": "orange-flower", "name": "מים פרח תפוז", "amount": "5ml" },
+      { "id": "soda-water", "name": "מים סודה", "amount": "30ml" }
+    ],
+    "instructions": [
+      "ערבבו גין, מיץ לימון, קרם, חלבון ביצה וסירופ בשייקר (ללא קרח) במשך 30 שניות",
+      "הוסיפו קרח וערבבו עוד 30 שניות",
+      "סנן לתוך כוס גדולה ריקה",
+      "תוסיף מים סודה",
+      "קישטו"
+    ],
+    "garnish": "פרח תפוז",
+    "tips": "קוקטיל הדורש מאמץ אבל שווה זאת"
+  },
+  {
+    "id": "white-lady",
+    "name": "גברת לבנה",
+    "description": "קוקטיל קלאסי קר עם גין וביצה",
+    "baseSpirit": "gin",
+    "tastes": ["sour", "light"],
+    "difficulty": "easy",
+    "cost": "cheap",
+    "ingredients": [
+      { "id": "gin", "name": "גין", "amount": "40ml" },
+      { "id": "triple-sec", "name": "טריפל סק", "amount": "30ml" },
+      { "id": "lemon-juice", "name": "מיץ לימון טרי", "amount": "20ml" }
+    ],
+    "instructions": [
+      "ערבבו גין, טריפל סק ומיץ לימון בשייקר עם קרח",
+      "סנן לתוך כוס קר"
+    ],
+    "garnish": "פתיל לימון",
+    "tips": "קוקטיל קלאסי וקל"
+  },
+  {
+    "id": "side-car",
+    "name": "סיידקר (שונה)",
+    "description": "קוקטיל קר עם קוניאק וטריפל סק",
+    "baseSpirit": "brandy",
+    "tastes": ["sour", "sweet"],
+    "difficulty": "easy",
+    "cost": "expensive",
+    "ingredients": [
+      { "id": "cognac", "name": "קוניאק", "amount": "50ml" },
+      { "id": "triple-sec", "name": "טריפל סק", "amount": "20ml" },
+      { "id": "lime-juice", "name": "מיץ לימון טרי", "amount": "20ml" }
+    ],
+    "instructions": [
+      "ערבבו קוניאק, טריפל סק ומיץ לימון בשייקר עם קרח",
+      "סנן לתוך כוס קר"
+    ],
+    "garnish": "פתיל לימון",
+    "tips": "קוקטיל קלאסי וקר"
+  },
+  {
+    "id": "vieux-carre",
+    "name": "ויה קארה",
+    "description": "קוקטיל ניו אורלינס עם שלוש משקאות",
+    "baseSpirit": "whiskey",
+    "tastes": ["strong", "sweet"],
+    "difficulty": "medium",
+    "cost": "expensive",
+    "ingredients": [
+      { "id": "rye-whiskey", "name": "וויסקי רע", "amount": "30ml" },
+      { "id": "cognac", "name": "קוניאק", "amount": "30ml" },
+      { "id": "sweet-vermouth", "name": "ורמוט מתוק", "amount": "30ml" },
+      { "id": "bitters", "name": "ביטרס אנגוסטורה וקארון", "amount": "2 דגימות" },
+      { "id": "bitters-peychauds", "name": "פיקוד ביטרס", "amount": "2 דגימות" }
+    ],
+    "instructions": [
+      "ערבבו את כל המרכיבים בגביע ערבוב עם קרח",
+      "סנן לכוס עם קרח גדול"
+    ],
+    "garnish": "פתיל לימון",
+    "tips": "קוקטיל מורכב וקלאסי"
+  },
+  {
+    "id": "french-75",
+    "name": "צרפתי 75",
+    "description": "קוקטיל אלגנטי עם גין וחמפניה",
+    "baseSpirit": "gin",
+    "tastes": ["sour", "light"],
+    "difficulty": "easy",
+    "cost": "medium",
+    "ingredients": [
+      { "id": "gin", "name": "גין", "amount": "20ml" },
+      { "id": "champagne", "name": "חמפניה", "amount": "100ml" },
+      { "id": "lemon-juice", "name": "מיץ לימון טרי", "amount": "15ml" },
+      { "id": "sugar-syrup", "name": "סירופ סוכר", "amount": "10ml" }
+    ],
+    "instructions": [
+      "ערבבו גין, מיץ לימון וסירופ בשייקר עם קרח",
+      "סנן לכוס שמפניה",
+      "תוסיף חמפניה"
+    ],
+    "garnish": "פתיל לימון",
+    "tips": "קוקטיל אלגנטי ורענן"
+  },
+  {
+    "id": "bee-gees",
+    "name": "ביז בי",
+    "description": "קוקטיל מתוק עם ראם ודבש",
+    "baseSpirit": "rum",
+    "tastes": ["sweet", "light"],
+    "difficulty": "easy",
+    "cost": "cheap",
+    "ingredients": [
+      { "id": "light-rum", "name": "ראם בהיר", "amount": "40ml" },
+      { "id": "honey", "name": "דבש", "amount": "20ml" },
+      { "id": "lime-juice", "name": "מיץ לימון טרי", "amount": "20ml" },
+      { "id": "hot-water", "name": "מים חמים", "amount": "50ml" }
+    ],
+    "instructions": [
+      "ערבבו דבש וראם בכוס",
+      "הוסיפו מיץ לימון",
+      "מלא בקרח ומים סודה קר (או מים חמים לקוקטיל חם)"
+    ],
+    "garnish": "פתיל לימון",
+    "tips": "קוקטיל מתוק וקל"
+  },
+  {
+    "id": "rum-punch",
+    "name": "קליעת ראם",
+    "description": "קוקטיל קרם עם ראם וקוקוס",
+    "baseSpirit": "rum",
+    "tastes": ["sweet", "fruity"],
+    "difficulty": "easy",
+    "cost": "cheap",
+    "ingredients": [
+      { "id": "dark-rum", "name": "ראם אפל", "amount": "50ml" },
+      { "id": "pineapple-juice", "name": "מיץ אננס", "amount": "90ml" },
+      { "id": "orange-juice", "name": "מיץ תפוז", "amount": "60ml" },
+      { "id": "lime-juice", "name": "מיץ לימון טרי", "amount": "10ml" },
+      { "id": "sugar-syrup", "name": "סירופ סוכר", "amount": "15ml" }
+    ],
+    "instructions": [
+      "מלא כוס בקרח",
+      "ערוק ראם",
+      "הוסיף מיצים וסירופ",
+      "ערבבו היטב"
+    ],
+    "garnish": "עלה אננס וקש",
+    "tips": "קוקטיל טרופי וקל"
+  },
+  {
+    "id": "mai-tai",
+    "name": "מיי טאי",
+    "description": "קוקטיל ברזילאי עם שני סוגי ראם",
+    "baseSpirit": "rum",
+    "tastes": ["sweet", "fruity"],
+    "difficulty": "hard",
+    "cost": "expensive",
+    "ingredients": [
+      { "id": "light-rum", "name": "ראם בהיר", "amount": "30ml" },
+      { "id": "dark-rum", "name": "ראם אפל", "amount": "30ml" },
+      { "id": "orange-liqueur", "name": "ליקר תפוז", "amount": "20ml" },
+      { "id": "lime-juice", "name": "מיץ לימון טרי", "amount": "30ml" },
+      { "id": "orgeat-syrup", "name": "סירופ אורג'ט", "amount": "15ml" },
+      { "id": "bitters", "name": "אנגוסטורה ביטרס", "amount": "1 טיפה" }
+    ],
+    "instructions": [
+      "ערבבו את כל המרכיבים בשייקר עם קרח",
+      "סנן לכוס מלא בקרח אפריקני"
+    ],
+    "garnish": "עלה מנטה וקש",
+    "tips": "קוקטיל הוואיאני מפורסם"
+  },
+  {
+    "id": "zombie",
+    "name": "זומבי",
+    "description": "קוקטיל חזק מאוד עם שלוש סוגי ראם",
+    "baseSpirit": "rum",
+    "tastes": ["sweet", "strong"],
+    "difficulty": "hard",
+    "cost": "expensive",
+    "ingredients": [
+      { "id": "light-rum", "name": "ראם בהיר", "amount": "30ml" },
+      { "id": "gold-rum", "name": "ראם זהב", "amount": "30ml" },
+      { "id": "dark-rum", "name": "ראם אפל", "amount": "20ml" },
+      { "id": "lime-juice", "name": "מיץ לימון טרי", "amount": "25ml" },
+      { "id": "pineapple-juice", "name": "מיץ אננס", "amount": "90ml" },
+      { "id": "apricot-liqueur", "name": "ליקר משמש", "amount": "15ml" }
+    ],
+    "instructions": [
+      "ערבבו את כל המרכיבים בשייקר עם קרח",
+      "סנן לכוס עם קרח"
+    ],
+    "garnish": "עלה אננס וקש",
+    "tips": "קוקטיל חזק מאוד - בזהירות!"
+  },
+  {
+    "id": "hurricane",
+    "name": "הוריקן",
+    "description": "קוקטיל טרופי עם שני סוגי ראם",
+    "baseSpirit": "rum",
+    "tastes": ["sweet", "fruity"],
+    "difficulty": "easy",
+    "cost": "cheap",
+    "ingredients": [
+      { "id": "light-rum", "name": "ראם בהיר", "amount": "30ml" },
+      { "id": "dark-rum", "name": "ראם אפל", "amount": "30ml" },
+      { "id": "passion-fruit", "name": "מיץ פסיון פרוט", "amount": "90ml" },
+      { "id": "lime-juice", "name": "מיץ לימון טרי", "amount": "20ml" },
+      { "id": "sugar-syrup", "name": "סירופ סוכר", "amount": "15ml" }
+    ],
+    "instructions": [
+      "ערבבו את כל המרכיבים בשייקר עם קרח",
+      "סנן לכוס עם קרח"
+    ],
+    "garnish": "פרח תפוז וקש",
+    "tips": "קוקטיל טרופי וקל"
+  },
+  {
+    "id": "dark-and-stormy",
+    "name": "אפל וסערה",
+    "description": "קוקטיל קר עם ראם אפל וביר ג'ינג'ר",
+    "baseSpirit": "rum",
+    "tastes": ["sweet", "spicy"],
+    "difficulty": "easy",
+    "cost": "cheap",
+    "ingredients": [
+      { "id": "dark-rum", "name": "ראם אפל", "amount": "60ml" },
+      { "id": "ginger-beer", "name": "בירת ג'ינג'ר", "amount": "120ml" },
+      { "id": "lime-juice", "name": "מיץ לימון טרי", "amount": "15ml" }
+    ],
+    "instructions": [
+      "מלא כוס בקרח",
+      "ערוק ראם",
+      "הוסיף מיץ לימון",
+      "מלא עם בירת ג'ינג'ר",
+      "ערבבו"
+    ],
+    "garnish": "קש",
+    "tips": "קוקטיל פשוט וטעים"
+  },
+  {
+    "id": "virgin-mojito",
+    "name": "מוהיטו וירג'ין",
+    "description": "מוהיטו ללא אלכוהול",
+    "baseSpirit": "none",
+    "tastes": ["sour", "fresh"],
+    "difficulty": "easy",
+    "cost": "cheap",
+    "ingredients": [
+      { "id": "lime-juice", "name": "מיץ לימון טרי", "amount": "25ml" },
+      { "id": "sugar-syrup", "name": "סירופ סוכר", "amount": "10ml" },
+      { "id": "mint", "name": "עלי מנטה", "amount": "10 עלים" },
+      { "id": "soda-water", "name": "מים סודה", "amount": "150ml" }
+    ],
+    "instructions": [
+      "שימו עלי מנטה וסוכר בכוס",
+      "ערבבו בעדינות כדי להשחרר את הניחוח",
+      "הוסיפו קרח",
+      "הוסיפו מיץ לימון ומים סודה",
+      "ערבבו היטב"
+    ],
+    "garnish": "עלי מנטה וקש",
+    "tips": "אפשרות מעולה ללא אלכוהול"
+  },
+  {
+    "id": "virgin-piña-colada",
+    "name": "פינה קולאדה וירג'ין",
+    "description": "פינה קולאדה ללא אלכוהול",
+    "baseSpirit": "none",
+    "tastes": ["sweet", "creamy"],
+    "difficulty": "medium",
+    "cost": "medium",
+    "ingredients": [
+      { "id": "pineapple-juice", "name": "מיץ אננס", "amount": "100ml" },
+      { "id": "coconut-cream", "name": "קרם קוקוס", "amount": "60ml" },
+      { "id": "ice", "name": "קרח", "amount": "1 כוס" }
+    ],
+    "instructions": [
+      "בלנדו מיץ אננס, קרם קוקוס וקרח",
+      "שפכו לכוס גדולה",
+      "קישטו"
+    ],
+    "garnish": "עלי אננס וקש",
+    "tips": "אפשרות טעימה ללא אלכוהול"
+  },
+  {
+    "id": "virgin-colada",
+    "name": "קולאדה וירג'ין",
+    "description": "משקה טרופי ללא אלכוהול",
+    "baseSpirit": "none",
+    "tastes": ["sweet", "fruity"],
+    "difficulty": "easy",
+    "cost": "cheap",
+    "ingredients": [
+      { "id": "mango-juice", "name": "מיץ מנגו", "amount": "100ml" },
+      { "id": "passion-fruit-juice", "name": "מיץ פסיון פרוט", "amount": "50ml" },
+      { "id": "lime-juice", "name": "מיץ לימון טרי", "amount": "15ml" },
+      { "id": "sugar-syrup", "name": "סירופ סוכר", "amount": "10ml" }
+    ],
+    "instructions": [
+      "ערבבו את כל המרכיבים בשייקר עם קרח",
+      "סנן לכוס עם קרח",
+      "קישטו"
+    ],
+    "garnish": "פרח תפוז וקש",
+    "tips": "משקה טרופי וקל"
+  },
+  {
+    "id": "virgin-sunrise",
+    "name": "סנרייז וירג'ין",
+    "description": "טקילה סנרייז ללא אלכוהול",
+    "baseSpirit": "none",
+    "tastes": ["sweet", "fruity"],
+    "difficulty": "easy",
+    "cost": "cheap",
+    "ingredients": [
+      { "id": "orange-juice", "name": "מיץ תפוז", "amount": "120ml" },
+      { "id": "grenadine", "name": "גרנדין", "amount": "15ml" },
+      { "id": "lime-juice", "name": "מיץ לימון טרי", "amount": "10ml" }
+    ],
+    "instructions": [
+      "מלא כוס בקרח",
+      "ערוק לימון",
+      "מלא עם מיץ תפוז",
+      "ערוק גרנדין בעדינות מהקצה"
+    ],
+    "garnish": "קטע תפוז וקש",
+    "tips": "קוקטיל צבעוני וללא אלכוהול"
+  },
+  {
+    "id": "sex-on-beach",
+    "name": "סקס בחוף",
+    "description": "קוקטיל וודקה עם פירות",
+    "baseSpirit": "vodka",
+    "tastes": ["sweet", "fruity"],
+    "difficulty": "easy",
+    "cost": "cheap",
+    "ingredients": [
+      { "id": "vodka", "name": "וודקה", "amount": "45ml" },
+      { "id": "peach-liqueur", "name": "ליקר אפרסק", "amount": "20ml" },
+      { "id": "cranberry-juice", "name": "מיץ קראנברי", "amount": "90ml" },
+      { "id": "orange-juice", "name": "מיץ תפוז", "amount": "90ml" },
+      { "id": "lime-juice", "name": "מיץ לימון טרי", "amount": "10ml" }
+    ],
+    "instructions": [
+      "מלא כוס בקרח",
+      "ערוק וודקה וליקר אפרסק",
+      "מלא עם מיצי קראנברי ותפוז",
+      "ערוק לימון",
+      "ערבבו"
+    ],
+    "garnish": "קש",
+    "tips": "קוקטיל חביב וקל"
+  },
+  {
+    "id": "slippery-nipple",
+    "name": "ספיליירי ניפל",
+    "description": "קוקטיל שוט עם גרנדין וקרם",
+    "baseSpirit": "vodka",
+    "tastes": ["sweet", "creamy"],
+    "difficulty": "easy",
+    "cost": "cheap",
+    "ingredients": [
+      { "id": "vodka", "name": "וודקה", "amount": "30ml" },
+      { "id": "grenadine", "name": "גרנדין", "amount": "15ml" },
+      { "id": "cream", "name": "קרם", "amount": "15ml" }
+    ],
+    "instructions": [
+      "מלא שוט עם גרנדין",
+      "ערוק וודקה",
+      "הוסיף קרם בעדינות (בעזרת כפית)"
+    ],
+    "garnish": "אפילו",
+    "tips": "שוט מפורסם"
+  },
+  {
+    "id": "b52",
+    "name": "ב52",
+    "description": "קוקטיל שוט עם שלוש ליקרים",
+    "baseSpirit": "liqueur",
+    "tastes": ["sweet"],
+    "difficulty": "medium",
+    "cost": "expensive",
+    "ingredients": [
+      { "id": "kahlua", "name": "קהלואה", "amount": "15ml" },
+      { "id": "baileys", "name": "בייליז", "amount": "15ml" },
+      { "id": "grand-marnier", "name": "גרן מרניה", "amount": "15ml" }
+    ],
+    "instructions": [
+      "ערוק קהלואה לשוט",
+      "הוסיף בייליז בעדינות (בעזרת כפית)",
+      "הוסיף גרן מרניה בעדינות (בעזרת כפית)"
+    ],
+    "garnish": "אפילו",
+    "tips": "שוט קלאסי עם שלוש שכבות"
+  },
+  {
+    "id": "kamikazee",
+    "name": "קמיקזה",
+    "description": "קוקטיל חמוץ וחזק",
+    "baseSpirit": "vodka",
+    "tastes": ["sour", "strong"],
+    "difficulty": "easy",
+    "cost": "cheap",
+    "ingredients": [
+      { "id": "vodka", "name": "וודקה", "amount": "30ml" },
+      { "id": "triple-sec", "name": "טריפל סק", "amount": "20ml" },
+      { "id": "lime-juice", "name": "מיץ לימון טרי", "amount": "20ml" }
+    ],
+    "instructions": [
+      "ערבבו וודקה, טריפל סק ומיץ לימון בשייקר עם קרח",
+      "סנן לשוט או לכוס קר"
+    ],
+    "garnish": "אפילו",
+    "tips": "שוט פשוט וחזק"
+  },
+  {
+    "id": "buttery-nipple",
+    "name": "בוטרי ניפל",
+    "description": "קוקטיל שוט מתוק עם חמאה",
+    "baseSpirit": "vodka",
+    "tastes": ["sweet", "creamy"],
+    "difficulty": "easy",
+    "cost": "cheap",
+    "ingredients": [
+      { "id": "vodka", "name": "וודקה", "amount": "15ml" },
+      { "id": "butterscotch-liqueur", "name": "ליקר בוטרסקוץ", "amount": "15ml" },
+      { "id": "cream", "name": "קרם", "amount": "15ml" }
+    ],
+    "instructions": [
+      "ערוק וודקה וליקר בוטרסקוץ לשוט",
+      "הוסיף קרם בעדינות"
+    ],
+    "garnish": "אפילו",
+    "tips": "שוט מתוק וקל"
+  },
+  {
+    "id": "tequila-shot",
+    "name": "שוט טקילה",
+    "description": "שוט קלאסי עם טקילה, מלח ולימון",
+    "baseSpirit": "tequila",
+    "tastes": ["strong"],
+    "difficulty": "easy",
+    "cost": "cheap",
+    "ingredients": [
+      { "id": "tequila", "name": "טקילה", "amount": "45ml" },
+      { "id": "salt", "name": "מלח", "amount": "קצף" },
+      { "id": "lime", "name": "לימון", "amount": "חתיכה" }
+    ],
+    "instructions": [
+      "שפכו מלח לגב יד",
+      "לקח הלימון בחיוך",
+      "לקח שוט טקילה",
+      "דקו לימון"
+    ],
+    "garnish": "מלח ולימון",
+    "tips": "שוט קלאסי מקסיקני"
+  },
+  {
+    "id": "jägermeister",
+    "name": "יגרמייסטר",
+    "description": "שוט דו-שכבתי עם ליקר",
+    "baseSpirit": "liqueur",
+    "tastes": ["strong", "herbal"],
+    "difficulty": "easy",
+    "cost": "medium",
+    "ingredients": [
+      { "id": "jägermeister", "name": "יגרמייסטר (קר)", "amount": "30ml" }
+    ],
+    "instructions": [
+      "תשפכו יגרמייסטר קר לשוט",
+      "לקח כמילה אחת"
+    ],
+    "garnish": "אפילו",
+    "tips": "שוט קלאסי יהודי"
+  },
+  {
+    "id": "fireball",
+    "name": "כדור אש",
+    "description": "שוט חריף עם ויסקי וסידר ספייסד",
+    "baseSpirit": "whiskey",
+    "tastes": ["spicy", "strong"],
+    "difficulty": "easy",
+    "cost": "cheap",
+    "ingredients": [
+      { "id": "cinnamon-whiskey", "name": "וויסקי קינמון", "amount": "30ml" }
+    ],
+    "instructions": [
+      "תשפכו וויסקי קינמון קר לשוט",
+      "לקח כמילה אחת"
+    ],
+    "garnish": "אפילו",
+    "tips": "שוט חריף וטעים"
+  },
+  {
+    "id": "goldschläger",
+    "name": "גולדשלאגר",
+    "description": "שוט קינמון חריף",
+    "baseSpirit": "liqueur",
+    "tastes": ["spicy", "sweet"],
+    "difficulty": "easy",
+    "cost": "cheap",
+    "ingredients": [
+      { "id": "goldschläger", "name": "גולדשלאגר (קר)", "amount": "30ml" }
+    ],
+    "instructions": [
+      "תשפכו גולדשלאגר קר לשוט",
+      "לקח כמילה אחת"
+    ],
+    "garnish": "אפילו",
+    "tips": "שוט קינמון חריף"
+  },
+  {
+    "id": "orgeat-sour",
+    "name": "אורג'ט סאוור",
+    "description": "קוקטיל חמוץ עם סירופ אורג'ט",
+    "baseSpirit": "gin",
+    "tastes": ["sour", "sweet"],
+    "difficulty": "easy",
+    "cost": "cheap",
+    "ingredients": [
+      { "id": "gin", "name": "גין", "amount": "45ml" },
+      { "id": "orgeat-syrup", "name": "סירופ אורג'ט", "amount": "20ml" },
+      { "id": "lemon-juice", "name": "מיץ לימון טרי", "amount": "20ml" }
+    ],
+    "instructions": [
+      "ערבבו גין, סירופ אורג'ט ומיץ לימון בשייקר עם קרח",
+      "סנן לכוס קר"
+    ],
+    "garnish": "פתיל לימון",
+    "tips": "קוקטיל קל וטעים"
+  },
+  {
+    "id": "pisco-sour",
+    "name": "פיסקו סאוור",
+    "description": "קוקטיל פרואני קלאסי",
+    "baseSpirit": "pisco",
+    "tastes": ["sour", "light"],
+    "difficulty": "medium",
+    "cost": "expensive",
+    "ingredients": [
+      { "id": "pisco", "name": "פיסקו", "amount": "60ml" },
+      { "id": "lime-juice", "name": "מיץ לימון טרי", "amount": "30ml" },
+      { "id": "sugar-syrup", "name": "סירופ סוכר", "amount": "20ml" },
+      { "id": "egg-white", "name": "חלבון ביצה", "amount": "1" },
+      { "id": "bitters", "name": "אנגוסטורה ביטרס", "amount": "1 טיפה" }
+    ],
+    "instructions": [
+      "ערבבו פיסקו, מיץ לימון, סירופ וחלבון בשייקר (ללא קרח)",
+      "ערבבו כ-20 שניות",
+      "הוסיפו קרח וערבבו עוד 20 שניות",
+      "סנן לכוס קר",
+      "טיפת ביטרס על הקצף"
+    ],
+    "garnish": "קצף וקש",
+    "tips": "קוקטיל פרואני קלאסי"
+  },
+  {
+    "id": "caipiroska",
+    "name": "קייפירוסקה",
+    "description": "קייפירינה עם וודקה במקום רום",
+    "baseSpirit": "vodka",
+    "tastes": ["sour", "light"],
+    "difficulty": "medium",
+    "cost": "cheap",
+    "ingredients": [
+      { "id": "vodka", "name": "וודקה", "amount": "50ml" },
+      { "id": "lime", "name": "לימון שלם (חתוך)", "amount": "1 לימון" },
+      { "id": "sugar", "name": "סוכר חום", "amount": "2 כפיות" }
+    ],
+    "instructions": [
+      "שימו חתיכות לימון וסוכר בכוס",
+      "דקו בעדינות כדי להשחרר את המיצים",
+      "מלא בקרח",
+      "ערוק וודקה",
+      "ערבבו"
+    ],
+    "garnish": "חתיכת לימון",
+    "tips": "גרסה וודקה של קייפירינה"
+  },
+  {
+    "id": "rum-runner",
+    "name": "רץ ראם",
+    "description": "קוקטיל קר עם שני סוגי ראם",
+    "baseSpirit": "rum",
+    "tastes": ["sweet", "fruity"],
+    "difficulty": "easy",
+    "cost": "cheap",
+    "ingredients": [
+      { "id": "light-rum", "name": "ראם בהיר", "amount": "30ml" },
+      { "id": "dark-rum", "name": "ראם אפל", "amount": "30ml" },
+      { "id": "banana-liqueur", "name": "ליקר בננה", "amount": "15ml" },
+      { "id": "blackberry-liqueur", "name": "ליקר בלו בארי", "amount": "15ml" },
+      { "id": "pineapple-juice", "name": "מיץ אננס", "amount": "60ml" },
+      { "id": "cranberry-juice", "name": "מיץ קראנברי", "amount": "60ml" },
+      { "id": "lime-juice", "name": "מיץ לימון טרי", "amount": "15ml" }
+    ],
+    "instructions": [
+      "ערבבו את כל המרכיבים בשייקר עם קרח",
+      "סנן לכוס עם קרח"
+    ],
+    "garnish": "קש",
+    "tips": "קוקטיל טרופי וקל"
+  },
+  {
+    "id": "blue-hawaiian",
+    "name": "בלו הוואיאני",
+    "description": "קוקטיל כחול עם אננס וקוקוס",
+    "baseSpirit": "vodka",
+    "tastes": ["sweet", "fruity"],
+    "difficulty": "easy",
+    "cost": "medium",
+    "ingredients": [
+      { "id": "vodka", "name": "וודקה", "amount": "45ml" },
+      { "id": "blue-curacao", "name": "בלו קוראסאו", "amount": "20ml" },
+      { "id": "pineapple-juice", "name": "מיץ אננס", "amount": "90ml" },
+      { "id": "cream-of-coconut", "name": "קרם קוקוס", "amount": "30ml" },
+      { "id": "lime-juice", "name": "מיץ לימון טרי", "amount": "10ml" }
+    ],
+    "instructions": [
+      "ערבבו את כל המרכיבים בשייקר עם קרח",
+      "סנן לכוס עם קרח"
+    ],
+    "garnish": "עלי אננס וקש",
+    "tips": "קוקטיל הוואיאני כחול וקל"
+  },
+  {
+    "id": "midori-sour",
+    "name": "מידורי סאוור",
+    "description": "קוקטיל ירוק עם ליקר מידורי",
+    "baseSpirit": "midori",
+    "tastes": ["sweet", "fruity"],
+    "difficulty": "easy",
+    "cost": "cheap",
+    "ingredients": [
+      { "id": "midori", "name": "מידורי (ליקר מלון)", "amount": "45ml" },
+      { "id": "vodka", "name": "וודקה", "amount": "30ml" },
+      { "id": "lime-juice", "name": "מיץ לימון טרי", "amount": "20ml" },
+      { "id": "sour-mix", "name": "סאוור מיקס", "amount": "30ml" }
+    ],
+    "instructions": [
+      "ערבבו את כל המרכיבים בשייקר עם קרח",
+      "סנן לכוס קר"
+    ],
+    "garnish": "קש",
+    "tips": "קוקטיל ירוק וקל"
+  },
+  {
+    "id": "melon-ball",
+    "name": "כדור מלון",
+    "description": "קוקטיל מתוק עם מלון וביץ",
+    "baseSpirit": "vodka",
+    "tastes": ["sweet", "fruity"],
+    "difficulty": "easy",
+    "cost": "cheap",
+    "ingredients": [
+      { "id": "vodka", "name": "וודקה", "amount": "30ml" },
+      { "id": "midori", "name": "מידורי (ליקר מלון)", "amount": "20ml" },
+      { "id": "pineapple-juice", "name": "מיץ אננס", "amount": "90ml" },
+      { "id": "cranberry-juice", "name": "מיץ קראנברי", "amount": "30ml" }
+    ],
+    "instructions": [
+      "מלא כוס בקרח",
+      "ערוק וודקה ומידורי",
+      "הוסיף מיצים",
+      "ערבבו"
+    ],
+    "garnish": "קש",
+    "tips": "קוקטיל קל וממתק"
+  },
+  {
+    "id": "kiwi-smash",
+    "name": "כיווי סמאש",
+    "description": "קוקטיל טרי עם קיווי וג'ינג'ר",
+    "baseSpirit": "vodka",
+    "tastes": ["sour", "fruity"],
+    "difficulty": "medium",
+    "cost": "cheap",
+    "ingredients": [
+      { "id": "vodka", "name": "וודקה", "amount": "45ml" },
+      { "id": "kiwi", "name": "קיווי טרי", "amount": "1-2 פרי" },
+      { "id": "ginger", "name": "ג'ינג'ר טרי", "amount": "קומקום" },
+      { "id": "lime-juice", "name": "מיץ לימון טרי", "amount": "20ml" },
+      { "id": "sugar-syrup", "name": "סירופ סוכר", "amount": "15ml" }
+    ],
+    "instructions": [
+      "דקו קיווי וג'ינג'ר בשייקר",
+      "הוסיפו וודקה, מיץ לימון וסירופ",
+      "הוסיפו קרח וערבבו",
+      "סנן לכוס עם קרח"
+    ],
+    "garnish": "פרח קיווי וקש",
+    "tips": "קוקטיל טרי וקל"
+  },
+  {
+    "id": "strawberry-daiquiri",
+    "name": "דייקירי תות",
+    "description": "דייקירי קלאסי עם תות טרי",
+    "baseSpirit": "rum",
+    "tastes": ["sour", "fruity"],
+    "difficulty": "easy",
+    "cost": "cheap",
+    "ingredients": [
+      { "id": "white-rum", "name": "ראם לבן", "amount": "60ml" },
+      { "id": "strawberry", "name": "תות טרי", "amount": "100g" },
+      { "id": "lime-juice", "name": "מיץ לימון טרי", "amount": "25ml" },
+      { "id": "sugar-syrup", "name": "סירופ סוכר", "amount": "15ml" }
+    ],
+    "instructions": [
+      "דקו תות בשייקר",
+      "הוסיפו ראם, מיץ לימון וסירופ",
+      "הוסיפו קרח וערבבו",
+      "סנן לכוס קר"
+    ],
+    "garnish": "תות טרי וקש",
+    "tips": "דייקירי קלאסי עם טעם פירות"
+  },
+  {
+    "id": "passion-fruit-punch",
+    "name": "קליעת פסיון פרוט",
+    "description": "קוקטיל טרופי עם פסיון פרוט",
+    "baseSpirit": "rum",
+    "tastes": ["sweet", "fruity"],
+    "difficulty": "easy",
+    "cost": "cheap",
+    "ingredients": [
+      { "id": "rum", "name": "ראם בהיר", "amount": "45ml" },
+      { "id": "passion-fruit", "name": "מיץ פסיון פרוט", "amount": "60ml" },
+      { "id": "orange-juice", "name": "מיץ תפוז", "amount": "60ml" },
+      { "id": "lime-juice", "name": "מיץ לימון טרי", "amount": "15ml" },
+      { "id": "sugar-syrup", "name": "סירופ סוכר", "amount": "10ml" }
+    ],
+    "instructions": [
+      "ערבבו את כל המרכיבים בשייקר עם קרח",
+      "סנן לכוס עם קרח"
+    ],
+    "garnish": "קש",
+    "tips": "קוקטיל טרופי וקל"
+  }
+]
