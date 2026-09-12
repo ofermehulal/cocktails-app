@@ -2,6 +2,7 @@ package com.ofermehulal.cocktailsapp.ui.navigation
 
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.FilterList
 import androidx.compose.material.icons.filled.Home
 import androidx.compose.material.icons.filled.Search
 import androidx.compose.material3.Icon
@@ -14,9 +15,9 @@ import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
-import com.ofermehulal.cocktailsapp.ui.screens.BrowseScreen
+import com.ofermehulal.cocktailsapp.ui.screens.BrowseScreenImpl
 import com.ofermehulal.cocktailsapp.ui.screens.HomeScreen
-import com.ofermehulal.cocktailsapp.ui.screens.SearchScreen
+import com.ofermehulal.cocktailsapp.ui.screens.SearchScreenImpl
 
 data class NavigationItem(
     val title: String,
@@ -36,13 +37,13 @@ fun CocktailsNavigation() {
         ),
         NavigationItem(
             title = "סינון",
-            icon = Icons.Filled.Home,
-            screen = { BrowseScreen() }
+            icon = Icons.Filled.FilterList,
+            screen = { BrowseScreenImpl() }
         ),
         NavigationItem(
             title = "חיפוש",
             icon = Icons.Filled.Search,
-            screen = { SearchScreen() }
+            screen = { SearchScreenImpl() }
         )
     )
 

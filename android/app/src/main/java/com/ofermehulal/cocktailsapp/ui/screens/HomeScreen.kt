@@ -17,7 +17,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.ofermehulal.cocktailsapp.ui.theme.Accent
 import com.ofermehulal.cocktailsapp.ui.theme.Background
 import com.ofermehulal.cocktailsapp.ui.theme.Primary
 import com.ofermehulal.cocktailsapp.ui.theme.Secondary
@@ -94,52 +93,6 @@ fun HomeScreen() {
             color = MaterialTheme.colorScheme.onSurfaceVariant,
             textAlign = TextAlign.Center,
             modifier = Modifier.padding(top = 32.dp)
-        )
-    }
-}
-
-@Composable
-fun BrowseScreen() {
-    Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .background(Background)
-            .padding(16.dp)
-    ) {
-        Text(
-            text = "סנן לפי טעם ומשקה",
-            style = MaterialTheme.typography.headlineMedium,
-            color = Primary,
-            modifier = Modifier.padding(bottom = 24.dp)
-        )
-
-        // Placeholder - will be implemented
-        Text(
-            text = "Browse filters coming soon...",
-            modifier = Modifier.padding(16.dp)
-        )
-    }
-}
-
-@Composable
-fun SearchScreen() {
-    Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .background(Background)
-            .padding(16.dp)
-    ) {
-        Text(
-            text = "בחר מרכיבים",
-            style = MaterialTheme.typography.headlineMedium,
-            color = Secondary,
-            modifier = Modifier.padding(bottom = 24.dp)
-        )
-
-        // Placeholder - will be implemented
-        Text(
-            text = "Search by ingredients coming soon...",
-            modifier = Modifier.padding(16.dp)
         )
     }
 }
