@@ -1,0 +1,49 @@
+# Android
+android/.gradle/
+android/build/
+android/local.properties
+android/.DS_Store
+android/*.iml
+android/.idea/
+android/out/
+
+# iOS
+ios/Pods/
+ios/Podfile.lock
+ios/.xcworkspace/
+ios/.swiftpm/
+ios/DerivedData/
+ios/xcuserdata/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Node/npm
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+*.apk
+*.ipa
+*.app
+
+# Firebase
+google-services.json
+GoogleService-Info.plist
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">קוקטיילים</string>
+
+    <!-- Home Screen -->
+    <string name="home_title">קוקטיילים</string>
+    <string name="browse_by_taste">סנן לפי טעם ומשקה</string>
+    <string name="search_by_ingredients">בחר מרכיבים שיש לך</string>
+
+    <!-- Browse Screen -->
+    <string name="select_spirit">בחר משקה בסיס</string>
+    <string name="select_taste">בחר טעם</string>
+    <string name="select_difficulty">בחר קושיות</string>
+    <string name="select_cost">בחר עלות</string>
+
+    <!-- Taste Options -->
+    <string name="sour">חמוץ</string>
+    <string name="sweet">מתוק</string>
+    <string name="sour_and_sweet">חמוץ ומתוק</string>
+    <string name="fresh">רענן</string>
+    <string name="bitter">מר</string>
+    <string name="dry">יבש</string>
+    <string name="creamy">קרמי</string>
+    <string name="fruity">פירות</string>
+    <string name="spicy">חריף</string>
+    <string name="herbal">צמחי</string>
+    <string name="savory">מלוח</string>
+    <string name="strong">חזק</string>
+    <string name="light">קל</string>
+
+    <!-- Spirits -->
+    <string name="gin">גין</string>
+    <string name="whiskey">וויסקי</string>
+    <string name="rum">ראם</string>
+    <string name="vodka">וודקה</string>
+    <string name="tequila">טקילה</string>
+    <string name="brandy">ברנדי</string>
+    <string name="pisco">פיסקו</string>
+    <string name="liqueur">ליקר</string>
+    <string name="none">ללא אלכוהול</string>
+
+    <!-- Difficulty -->
+    <string name="easy">קל</string>
+    <string name="medium">בינוני</string>
+    <string name="hard">קשה</string>
+
+    <!-- Cost -->
+    <string name="cheap">זול</string>
+    <string name="medium_cost">בינוני</string>
+    <string name="expensive">יקר</string>
+
+    <!-- Search -->
+    <string name="search_ingredients">חפש מרכיבים</string>
+    <string name="full_match">התאמה מלאה</string>
+    <string name="partial_match">התאמה חלקית</string>
+    <string name="you_need">אתה צריך עוד:</string>
+
+    <!-- Recipe Detail -->
+    <string name="ingredients">מרכיבים</string>
+    <string name="instructions">הוראות הכנה</string>
+    <string name="garnish">קישוט</string>
+    <string name="tips">טיפים</string>
+    <string name="similar_drinks">קוקטיילים דומים</string>
+
+    <!-- General -->
+    <string name="cancel">ביטול</string>
+    <string name="apply">החל</string>
+    <string name="reset">אפס</string>
+    <string name="search">חפש</string>
+    <string name="no_results">לא נמצאו תוצאות</string>
+</resources>
